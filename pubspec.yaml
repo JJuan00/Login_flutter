@@ -1,0 +1,34 @@
+name: flutter_login_php
+description: Aplication whit flutter and mysql php
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: balakhani
+      fonts:
+        - asset: assets/fonts/balakhani.ttf
+
+
